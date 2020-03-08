@@ -2,9 +2,9 @@ let data = [];
 let index = 0;
  
 const save = (obj) => {
-    const obj = { id: index, ...obj };
+    const dbObj = { id: index, ...obj };
     index++;
-    data.push(obj);
+    data.push(dbObj);
 }
 
 const getAll = () => {
