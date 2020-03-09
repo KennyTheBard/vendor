@@ -46,3 +46,7 @@ precum oferte temporare pe diferite produse, realizarea cererii la server pentru
 se reaproviziona un anumit tonomat, expunerea unor endpoint-uri pentru a se integra
 cu un sistem de gestionare si interogare (pentru a putea verficiat usor de operatori
 umani daca totul functioneaza in parametrii normali), etc.
+
+Testare:
+    Porniti cu npm start serverul si clientul si operati prin consola pe client.
+Serverul printeaza entitatile salvate ca metoda de verificare.
