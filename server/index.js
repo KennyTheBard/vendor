@@ -1,6 +1,8 @@
 const express = require('express');
 const audit = require('./services/audit_service.js');
 
+audit.setUpDatabase();
+
 const app = express();
 app.use(express.json());
 
